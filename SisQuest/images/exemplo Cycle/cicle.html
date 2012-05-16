@@ -1,0 +1,37 @@
+<!-- Aqui vc vai chamar na sua index caso vá usar em outras paginas ou vc pode chamar na pagina que vai usar o cycle -->
+<script type="text/javascript" src="jquery.js"></script> 
+<script type="text/javascript" src="cycle.js"></script>
+<!----------------------------------------------------------------->
+
+
+<div id="divPrincipal"> <!-- inicio da div principal e obrigatória que vai ser chamada pela função do cycle -->
+    
+    <!-- dentro dessa div vc coloca todas as divis qeu vai pra transição, cada conteíudo em uma div separada -->
+    
+    <!-- primeiro conteúdo -->
+    <div style="background: #FF0000;width: 100px;height: 50px;">
+        <b>Primeira Div</b>
+    </div>
+    <!-- Segundo conteúdo -->
+    <div style="background: #00FF00; width: 100px;height: 50px;">
+        <b>Segunda Div</b>
+    </div>
+    
+</div><!-- fim da div principal -->
+
+
+
+<script type ="text/javascript">
+    $(document).ready(function() {
+
+
+
+        // inicio do slideshow
+
+        $('#divPrincipal').cycle(); //aqui vc chama a função referenciando a div principal, dentro dos parenteses vc pode colocar paramentros
+                                    //caso queira algo mais, estilo de transição etc... no site oficial tem como colocar;
+
+
+    });
+ 
+</script>

@@ -36,7 +36,7 @@ License: Creative Commons Attribution
     <div id="body">
 	  <div id="content">
 		    
-            <h3>Ola <?php echo $_SESSION['tipoUsuario']; echo $_SESSION['usuarioNome'];?> seja bem-vindo ao SisQuest</h3>
+            <h3>Ola <?php echo $_SESSION['usuarioNome'];?> seja bem-vindo ao SisQuest</h3>
            
            	 <blockquote>
              <p>Pelo que vejo, você possui perfil de Aluno, sendo assim possui acesso seu cadastro de usuário, além de poder resolver questões e provas on-line.</p>

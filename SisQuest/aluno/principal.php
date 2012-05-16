@@ -29,14 +29,14 @@ License: Creative Commons Attribution
         	<li><a href="#">RESOLVER QUESTÕES</a></li>
             <li><a href="#">SOBRE</a></li>
             <li><a href="meus_dados.php">MEUS DADOS</a></li>
-        <li class="end"><a href="#">SAIR</a></li>
+        <li class="end"><a href="../dao/logout.php?opt=logout">SAIR</a></li>
         </ul>
         
     </div>
     <div id="body">
 	  <div id="content">
 		    
-            <h3>Bem-vindo ao SisQuest</h3>
+            <h3>Ola <?php echo $_SESSION['tipoUsuario']; echo $_SESSION['usuarioNome'];?> seja bem-vindo ao SisQuest</h3>
            
            	 <blockquote>
              <p>Pelo que vejo, você possui perfil de Aluno, sendo assim possui acesso seu cadastro de usuário, além de poder resolver questões e provas on-line.</p>

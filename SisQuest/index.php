@@ -35,7 +35,7 @@ License: Creative Commons Attribution
                     <input name="password" id="pwd" value="" type="password" class="textLogin"/></p>
 
                     
-                    <p><input name="send" style="margin-left: 150px;" class="formbutton" value="Entrar" type="submit" /> <a style="float:right" href="#">Equeceu sua senha?</a></p>
+                    <p><input name="send" style="margin-left: 150px;" class="formbutton" value="Entrar" type="submit" /> <a style="float:right" href="#">Esqueceu sua senha?</a></p>
                     
                 
                 

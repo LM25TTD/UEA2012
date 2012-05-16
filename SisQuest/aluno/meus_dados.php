@@ -31,7 +31,7 @@ License: Creative Commons Attribution
         	<li><a href="#">RESOLVER QUESTÕES</a></li>
             <li><a href="#">SOBRE</a></li>
             <li class="start selected"><a href="meus_dados.php">MEUS DADOS</a></li>
-        <li class="end"><a href="#">SAIR</a></li>
+        <li class="end"><a href="../dao/logout.php?opt=logout">SAIR</a></li>
         </ul>
         
     </div>
@@ -49,7 +49,7 @@ License: Creative Commons Attribution
       					<input type="text" class="textLogin" name="input_nome" id="input_nome"  value="<?php echo $resulado_linha['Nome']?>" /></p>
   
 					    <p><label for="datanasc">Data de Nascimento: *</label>
-      					<input type="text" name="input_data" id="input_data"  value="<?php echo $resulado_linha['Data_Nascimento']?>" /></p>
+      					<input type="text" name="input_data" id="input_data"  value="<?php echo $resulado_linha["DATE_FORMAT( Data_Nascimento,  '%d/%m/%Y' )"]?>" /></p>
   
     					<p><label for="telefone">Telefone: *</label>
     					<input type="text" name="input_tel" id="input_tel"  value="<?php echo $resulado_linha['Telefone']?>" /></p>
@@ -79,7 +79,17 @@ License: Creative Commons Attribution
       					<input type="text" name="input_cep" id="input_cep"  value="<?php echo $resulado_linha['Cep']?>" /></p>
   
   <p><label for="tipousuario">Tipo de Usuário: *</label>
-        <input name="input_tipousuario" type="text" disabled="disabled" id="input_tipousuario" value="<?php echo $resulado_linha['TipoUsuario']?>" />
+        <?php  switch($resulado_linha['TipoUsuario']){
+	case 1:
+	echo ('<input type = "radio" name ="tipousuario" value= "1" checked="true"/>Administrador');
+	break;
+	case 2:
+	echo ('<input type = "radio" name ="tipousuario" value= "2" checked="true"/>Professor');
+	break;
+	case 3:
+	echo ('<input type = "radio" name ="tipousuario" value= "3" checked="true"/>Aluno');
+	break;
+}?>
   </p>
  
   <p><input type="submit" style="margin-left: 150px;" class="formbutton" name="button_alterar" id="button_alterar" value="Alterar Dados" /></p>

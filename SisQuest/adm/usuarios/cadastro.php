@@ -25,7 +25,7 @@ License: Creative Commons Attribution
             <li class="selected"><a href="../cadastros.php">CADASTROS</a></li>
             <li><a href="#">RESOLVER QUESTÕES</a></li>
             <li><a href="#">SOBRE</a></li>
-            <li><a href="index.html">MEUS DADOS</a></li>
+            <li><a href="../meus_dados.php">MEUS DADOS</a></li>
         <li class="end"><a href="../../dao/logout.php?opt=logout">SAIR</a></li>
         </ul>
     </div>
@@ -60,7 +60,7 @@ License: Creative Commons Attribution
                     <input name="numero" id="numero" type="text" /></p>                  
                    <p><label for="bairro">Bairro: *</label>
                     <input name="bairro" id="bairro" type="text" class="textLogin" /></p>      
-                    <p><label for="complemento">Complemento: *</label>
+                    <p><label for="complemento">Complemento: </label>
                     <input name="complemento" id="complemento" type="text" class="textLogin" /></p>           		
                     <p><label for="cidade">Cidade: *</label>
                      <input name="cidade" id="cidade" type="text" class="textLogin" /></p>      

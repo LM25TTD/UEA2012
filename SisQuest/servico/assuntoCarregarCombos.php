@@ -1,6 +1,6 @@
 <?php
-include ($_SERVER['DOCUMENT_ROOT']."/SisQuest/dao/seguranca.php");
-include ($_SERVER['DOCUMENT_ROOT']."/SisQuest/dao/assuntoDao.php");
+include ("../dao/seguranca.php");
+include ("../dao/assuntoDao.php");
 
 switch ( $_GET['tipo'] ) {
 	case 'area' :

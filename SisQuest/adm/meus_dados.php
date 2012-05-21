@@ -1,6 +1,6 @@
 <?php
 include("../dao/seguranca.php");
-include("../dao/alunoDao.php");
+include("../dao/usuarioDao.php");
 protegePagina();
 $resulado_linha = visualizar_cadastro();
 ?>

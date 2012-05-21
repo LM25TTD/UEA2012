@@ -1,6 +1,6 @@
 <?php
 include("../dao/seguranca.php");
-include("../dao/alunoDao.php");
+include("../dao/usuarioDao.php");
 protegePagina();
 $resulado_linha = visualizar_cadastro();
 ?>
@@ -22,13 +22,13 @@ License: Creative Commons Attribution
 <div id="container">
 	<div id="header">
     	<h1><a href="/">SisQuest</a></h1>
-        <h2>Soluções práticas em aprendizado</h2>
+        <h2>SoluÃ§Ãµes prÃ¡ticas em aprendizado</h2>
         <div class="clear"></div>
     </div>
     <div id="nav">
     	<ul>
-        	<li><a href="principal.php">INÍCIO</a></li>
-        	<li><a href="#">RESOLVER QUESTÕES</a></li>
+        	<li><a href="principal.php">INÃ�CIO</a></li>
+        	<li><a href="#">RESOLVER QUESTÃ•ES</a></li>
             <li><a href="#">SOBRE</a></li>
             <li class="start selected"><a href="meus_dados.php">MEUS DADOS</a></li>
         <li class="end"><a href="../dao/logout.php?opt=logout">SAIR</a></li>
@@ -60,7 +60,7 @@ License: Creative Commons Attribution
       					<p><label for="rua">Rua: *</label>
       					<input type="text"  class="textLogin" name="input_rua" id="input_rua"  value="<?php echo $resulado_linha['Rua']?>" /></p>
     
-    					<p><label for="numero">Número da casa: *</label>
+    					<p><label for="numero">NÃºmero da casa: *</label>
       					<input type="text" name="input_numero" id="input_numero" value="<?php echo $resulado_linha['Numero']?>" /></p>
       
       					<p><label for="bairro">Bairro: *</label>
@@ -78,7 +78,7 @@ License: Creative Commons Attribution
       					<p><label for="cep">CEP: *</label>
       					<input type="text" name="input_cep" id="input_cep"  value="<?php echo $resulado_linha['Cep']?>" /></p>
   
-  <p><label for="tipousuario">Tipo de Usuário: *</label>
+  <p><label for="tipousuario">Tipo de UsuÃ¡rio: *</label>
         <?php  switch($resulado_linha['TipoUsuario']){
 	case 1:
 	echo ('<input type = "radio" name ="tipousuario" value= "1" checked="true"/>Administrador');

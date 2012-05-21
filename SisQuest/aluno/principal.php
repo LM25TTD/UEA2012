@@ -26,7 +26,7 @@ License: Creative Commons Attribution
     <div id="nav">
     	<ul>
         	<li class="start selected"><a href="principal.php">INÍCIO</a></li>
-        	<li><a href="#">RESOLVER QUESTÕES</a></li>
+        	<li><a href="resolver_questoes.php">RESOLVER QUESTÕES</a></li>
             <li><a href="#">SOBRE</a></li>
             <li><a href="meus_dados.php">MEUS DADOS</a></li>
         <li class="end"><a href="../dao/logout.php?opt=logout">SAIR</a></li>

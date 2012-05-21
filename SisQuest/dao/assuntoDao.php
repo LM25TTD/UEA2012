@@ -10,6 +10,9 @@ function obterDisciplinas($link,$idArea){
 	return $resultado;
 }
 
-
+function obterAssuntos($link,$idDisciplina){
+	$resultado = mysql_query("SELECT id_assunto, nome_assunto from tb_assunto WHERE Id_Disciplina=".$idDisciplina,$link);
+	return $resultado;
+}
 
 ?>

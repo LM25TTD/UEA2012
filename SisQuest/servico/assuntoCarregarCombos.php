@@ -28,6 +28,18 @@ switch ( $_GET['tipo'] ) {
 		print $retorno;
 		
 		break;
+	case 'assunto' :
+			$resultado = obterAssuntos($_SG['link'], $_GET['id_disciplina']);
+			$retorno = null;
+			$retorno= sprintf('<option value="%s">Escolha uma assunto</option>',0);
+			$retorno .= sprintf('<option value="%s">- - - - - - - - - - - - -</option>',0);
+		
+			while($linha = mysql_fetch_array($resultado)){
+				$retorno .= sprintf('<option value="%s">%s</option>',$linha['id_assunto'],$linha['nome_assunto']);
+			}
+			print $retorno;
+		
+			break;
 }
 return null;
-?>
+?>	

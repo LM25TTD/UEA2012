@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects2012/!svn/ver/116/SisQuestNewTemplate/dao
+END
+disciplinaDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/disciplinaDao.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/login.php
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/logout.php
+END
+provaDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/provaDao.php
+END
+assuntoDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/assuntoDao.php
+END
+seguranca.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects2012/!svn/ver/123/SisQuestNewTemplate/dao/seguranca.php
+END
+questaoDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/questaoDao.php
+END
+usuarioDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/usuarioDao.php
+END
+areaDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects2012/!svn/ver/122/SisQuestNewTemplate/dao/areaDao.php
+END
